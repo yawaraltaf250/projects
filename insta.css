@@ -1,0 +1,89 @@
+* {
+    background-color: #ffffff;
+}
+
+.main {
+    height: 520px;
+    width: 420px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 960px;
+    top: 25px;
+    align-items: center;
+    border: 0.5px gray solid;
+}
+
+.insta {
+    font-family: 'Patrick Hand';
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+.text {
+    height: 40px;
+    width: 20rem;
+    margin-bottom: 8px;
+    border: 1px rgba(0, 0, 0, 0.393) solid;
+    background-color: #fafafa;
+}
+
+.text::placeholder {
+    font-size: 14px;
+    padding-left: 6px;
+}
+
+.pass {
+    height: 40px;
+    width: 20rem;
+    margin-bottom: 14px;
+    border: 1px rgba(0, 0, 0, 0.393) solid;
+    background-color: #fafafa;
+}
+
+.pass::placeholder {
+    font-size: 14px;
+    padding-left: 6px;
+}
+
+button {
+    height: 40px;
+    width: 20rem;
+    border-radius: 10px;
+    background-color: #5fb7ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border: transparent;
+}
+
+.login {
+    color: #385185;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.pic {
+    height: 20px;
+    width: 20px;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+.forgot {
+    color: #385185;
+    font-size: 18px;
+}
+
+.or {
+    color: #737373;
+    margin-top: 25px;
+}
+
+.screen {
+    position: relative;
+    left: 400px;
+}
