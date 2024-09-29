@@ -1,0 +1,108 @@
+    * {
+        background-color: #f0f2f5;
+    }
+    
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin-top: 210px;
+        margin-left: 300px;
+    }
+    
+    .top {
+        height: 20rem;
+        width: 20rem;
+        position: relative;
+        top: 38px;
+        margin-top: 10px;
+    }
+    
+    .facebook {
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    
+    .main {
+        height: 420px;
+        width: 500px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 70rem;
+        bottom: 16rem;
+        border-radius: 12px;
+        justify-content: space-between;
+        overflow: auto;
+    }
+    
+    .firstbox {
+        width: 28rem;
+        height: 3.5rem;
+        border-radius: 7px;
+        margin-top: 18px;
+        margin-left: 20px;
+        border: 1px solid rgba(27, 25, 25, 0.582);
+        background-color: transparent;
+    }
+    
+    .secondbox {
+        width: 28rem;
+        height: 3.5rem;
+        border-radius: 7px;
+        margin-left: 20px;
+        border: 1px solid rgba(27, 25, 25, 0.582);
+        background-color: transparent;
+        margin-bottom: 60px;
+        margin-top: -5px;
+        margin-top: 10px;
+    }
+    
+    .secondbox::placeholder {
+        font-size: large;
+        padding-left: 15px;
+    }
+    
+    .login {
+        width: 28.5rem;
+        height: 3.7rem;
+        border-radius: 7px;
+        margin-left: 20px;
+        background-color: #1877f2;
+        font-size: 30px;
+        color: white;
+        border-color: transparent;
+        position: relative;
+        bottom: 60px;
+        margin-top: 15px;
+    }
+    
+    .fp {
+        position: relative;
+        color: #1877f2;
+        font-size: 1.2rem;
+        margin-left: 180px;
+        bottom: 80px;
+        margin-top: 30px;
+        bottom: 70px;
+    }
+    
+    .button2 {
+        width: 15rem;
+        height: 3.5rem;
+        border-radius: 7px;
+        position: relative;
+        left: 140px;
+        bottom: 40px;
+        background-color: #42b72a;
+        font-size: larger;
+        color: white;
+        border-color: transparent;
+    }
+    
+    hr {
+        border: 1px solid black;
+    }
